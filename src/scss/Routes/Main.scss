@@ -1,0 +1,93 @@
+body {
+  margin: 0px;
+}
+.title {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 0px;
+  font-size: 80px;
+  font-weight: bold;
+  padding: 20px 0px 40px 0px;
+  background: linear-gradient(to right, #fffbd5, #b20a2c);
+  color: #ffd200;
+}
+.container {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -50px;
+  form {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    input {
+      width: 60%;
+      height: 40px;
+      font-size: 15px;
+      background-color: white;
+      border: none;
+      box-shadow: 0 1px 3px gray;
+      border-radius: 20px;
+      padding-left: 20px;
+      &::placeholder {
+        text-align: center;
+      }
+    }
+    button {
+      display: none;
+    }
+    input,
+    button {
+      box-sizing: border-box;
+      outline: none;
+    }
+  }
+  .searched {
+    font-weight: 600;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .coin-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0px;
+    button {
+      width: 80px;
+      height: 80px;
+      margin: 20px;
+      border-radius: 50%;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      background-color: #fffbd5;
+      svg {
+        fill: #b20a2c;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 70px;
+  }
+  .coin-table {
+    button {
+      display: none;
+    }
+  }
+}
