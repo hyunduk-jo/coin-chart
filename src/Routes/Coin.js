@@ -60,13 +60,15 @@ const Coin = ({match}) => {
         </select>
         <Chart chartDate={chartDate} chartPrice={chartPrice} coin={coin} />
         <Details data={data} />
-        {
-          data?.description?.ko ? 
-          <p>{data.description.ko}</p> : 
-          data?.description?.ko === "" ? 
-          <h1>No description about {data.id}</h1> : 
-          <h1>Loading...</h1>
-        }
+        <div className="description">
+          {
+            data?.description?.ko ? 
+            <p>{data.description.ko}</p> : 
+            data?.description?.ko === "" ? 
+            <h1>No description about {data.id}</h1> : 
+            <h1>Loading...</h1>
+          }
+        </div>
       </>
     }
   </div>

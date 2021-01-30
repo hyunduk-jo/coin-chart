@@ -5,9 +5,9 @@ const Coin = ({coins}) => {
   //console.log(coins)
   return <div className="wrapper">
     {coins.map((coin, i) => <div className={`coin-container ${(i + 2) % 2 === 0 ? "even" : "odd"}`} key={coin.name}>
-      <Link to={`/${coin.id}`}><img src={coin.image} alt={coin.id} /></Link>
-      <Link to={`/${coin.id}`}><span className="coin-id">{coin.id}</span></Link>
-      <Link to={`/${coin.id}`}>
+      <Link to={`/coin/${coin.id}`}><img src={coin.image} alt={coin.id} /></Link>
+      <Link to={`/coin/${coin.id}`}><span className="coin-id">{coin.id}</span></Link>
+      <Link to={`/coin/${coin.id}`}>
         <span className="coin-symbol">{coin.symbol.toUpperCase()}</span>
       </Link>
         <span>{coin.current_price.toLocaleString()} KRW</span>

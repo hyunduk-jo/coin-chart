@@ -43,7 +43,7 @@ function Main() {
         searchState === false ? null : searchedCoin[0] === undefined ? 
           <h1>Coin Not Found</h1> : 
           <span className="searched">
-            <Link to={`/${searched}`}>
+            <Link to={`/coin/${searched}`}>
               click here to see {searchedCoin[0].id}
             </Link>
           </span>

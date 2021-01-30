@@ -3,10 +3,10 @@ import Coin from './Routes/Coin';
 import Main from './Routes/Main';
 
 const Router = () => {
-  return <BrowserRouter>
+  return <BrowserRouter basename="/coin-chart">
     <Switch>
       <Route exact path="/" component={Main} />
-      <Route path='/:coin' component={Coin} />
+      <Route path='/coin/:coin' component={Coin} />
     </Switch>
   </BrowserRouter>
 }
