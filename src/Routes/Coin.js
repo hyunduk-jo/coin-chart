@@ -2,6 +2,7 @@ import axios from "axios";
 import { useCallback, useEffect, useState } from "react";
 import Chart from "../Components/Chart";
 import Details from "../Components/Details";
+import {Helmet} from 'react-helmet';
 
 import '../scss/Routes/Coin.scss';
 
@@ -45,6 +46,9 @@ const Coin = ({match}) => {
   },[getCoin, getCoinChartData])
 
   return <div className="coin-route__wrapper">
+    <Helmet>
+      <title>Coin | {coin}</title>
+    </Helmet>
     <div className="coin-title">{coin}</div>
     {
       loading ? <h1>Loading...</h1> : <>

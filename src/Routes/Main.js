@@ -3,6 +3,7 @@ import axios from 'axios';
 import '../scss/Routes/Main.scss';
 import Coin from '../Components/Coin';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 function Main() {
   const [coins, setCoins] = useState([]);
@@ -33,6 +34,9 @@ function Main() {
   //console.log(coins)
   return (
     <>
+    <Helmet>
+      <title>Coin | Home</title>
+    </Helmet>
     <span className="title">Coin Chart</span>
     <div className="container">
       <form>
