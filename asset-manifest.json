@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/coin-chart/static/css/main.ec94673c.chunk.css",
-    "main.js": "/coin-chart/static/js/main.fc6fc4d6.chunk.js",
-    "main.js.map": "/coin-chart/static/js/main.fc6fc4d6.chunk.js.map",
+    "main.js": "/coin-chart/static/js/main.65b427d0.chunk.js",
+    "main.js.map": "/coin-chart/static/js/main.65b427d0.chunk.js.map",
     "runtime-main.js": "/coin-chart/static/js/runtime-main.858819ab.js",
     "runtime-main.js.map": "/coin-chart/static/js/runtime-main.858819ab.js.map",
-    "static/js/2.caab41ed.chunk.js": "/coin-chart/static/js/2.caab41ed.chunk.js",
-    "static/js/2.caab41ed.chunk.js.map": "/coin-chart/static/js/2.caab41ed.chunk.js.map",
+    "static/js/2.e6d2bd0f.chunk.js": "/coin-chart/static/js/2.e6d2bd0f.chunk.js",
+    "static/js/2.e6d2bd0f.chunk.js.map": "/coin-chart/static/js/2.e6d2bd0f.chunk.js.map",
     "index.html": "/coin-chart/index.html",
     "static/css/main.ec94673c.chunk.css.map": "/coin-chart/static/css/main.ec94673c.chunk.css.map",
-    "static/js/2.caab41ed.chunk.js.LICENSE.txt": "/coin-chart/static/js/2.caab41ed.chunk.js.LICENSE.txt"
+    "static/js/2.e6d2bd0f.chunk.js.LICENSE.txt": "/coin-chart/static/js/2.e6d2bd0f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.858819ab.js",
-    "static/js/2.caab41ed.chunk.js",
+    "static/js/2.e6d2bd0f.chunk.js",
     "static/css/main.ec94673c.chunk.css",
-    "static/js/main.fc6fc4d6.chunk.js"
+    "static/js/main.65b427d0.chunk.js"
   ]
 }
