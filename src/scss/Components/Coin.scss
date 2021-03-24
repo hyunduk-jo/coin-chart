@@ -44,6 +44,10 @@
   .odd {
     background-color: #e7b0a0;
   }
+  span {
+    width: 100%;
+    justify-content: flex-end;
+  }
 }
 
 @media screen and (max-width: 480px) {
